@@ -1,0 +1,52 @@
+site_name: MISCnn wiki
+
+theme: 
+    name: rtd-dropdown
+    custom_dir: theme
+   # logo: 'https://raw.githubusercontent.com/gleichde/gleichde.github.io/master/logo.JPG'
+    include_search_page: true
+    search_index_only: false
+    highlightjs: true
+    hljs_languages: []
+    include_homepage_in_sidebar: true
+    prev_next_buttons_location: bottom
+    navigation_depth: 4
+    titles_only: false
+    sticky_navigation: true
+    collapse_navigation: true
+
+#    name: rtd-dropdown
+
+repo_url: https://github.com/frankkramer-lab/MIScnn
+site_description: 'Documentation for MIScnn, A framework for Medical Image Segmentation with Convolutional Neural Networks and Deep Learning.'
+
+#markdown_extensions:
+#  - codehilite:
+#        linenums: true
+    
+
+nav:
+    - Home: 'index.md'
+    - Getting Started:
+        - 'What is MIScnn?': 'Home.md'
+        - 'Install': 'Install.md'
+        - 'Basic Usage': 'Usage.md'
+        - 'Tutorials': 'Tutorials.md'
+        - 'Examples': 'Examples.md'
+    - Documentation - Core:
+        - 'Data I/O': 'Data-IO.md'
+        - 'Preprocessor': 'Preprocessor.md'
+        - 'Data Augmentation': 'Data-Augmentation.md'
+        - 'Neural Network Model': 'Model.md'
+        - 'Validation Techniques': 'Validation.md'
+    - Documentation - Interfaces:
+        - 'Architectures': 'Architectures.md'
+        - 'Metrics': 'Metrics.md'
+        - 'Subfunctions': 'Subfunctions.md'
+        - 'I/O Interfaces': 'IO-Interfaces.md'
+    - Documentation - Extras:
+        - 'Sample': 'Sample.md'
+    - Other:
+        - 'How to Contribute': 'Contribute.md'
+        - 'Author and Contacts': 'Credits.md'
+        
