@@ -1,7 +1,7 @@
 site_name: MISCnn wiki
 
 theme: 
-    name: rtd-dropdown
+    name: readthedocs
     custom_dir: theme
    # logo: 'https://raw.githubusercontent.com/gleichde/gleichde.github.io/master/logo.JPG'
     include_search_page: true
