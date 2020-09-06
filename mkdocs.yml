@@ -15,15 +15,8 @@ theme:
     sticky_navigation: true
     collapse_navigation: true
 
-#    name: rtd-dropdown
-
 repo_url: https://github.com/frankkramer-lab/MIScnn
 site_description: 'Documentation for MIScnn, A framework for Medical Image Segmentation with Convolutional Neural Networks and Deep Learning.'
-
-#markdown_extensions:
-#  - codehilite:
-#        linenums: true
-    
 
 nav:
     - Home: 'index.md'
