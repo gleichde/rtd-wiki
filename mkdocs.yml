@@ -3,7 +3,7 @@ site_name: MISCnn wiki
 theme: 
     name: readthedocs
     custom_dir: theme
-   # logo: 'https://raw.githubusercontent.com/gleichde/gleichde.github.io/master/logo.JPG'
+
     include_search_page: true
     search_index_only: false
     highlightjs: true
